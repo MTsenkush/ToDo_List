@@ -1,16 +1,47 @@
-# React + Vite
+## "ToDo_List"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple training project for CTD React 26.2 by student Mariia Tsenkush.
+Every new study week new tasks will be executed to understand, learn and practice React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Week one**:
+- create a repository on GitHub
+- clone to the local mashine
+- create a React boilerplate using Vite
+- run developer server
+- setup the project: remove default content and clean styles
+- create first React App that displays a todos list
+- update GitHub repository and create PR
 
-## React Compiler
+**Result**: After listed above steps I created a simple React App that displays a list of todos using JSX.
+It renders 2 React components:  heading and unordered list with tasks mapped from basic array.
+Each task has a unique key (array item id) and a title (array title) displayed in a list item.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Installation instructions:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Clone repository** on your local mashine using SSH:
+
+`git clone git@github.com:MTsenkush/ToDo_List.git`
+
+**Install dependencies**: Run `npm install` to install all required packages
+
+## How to run:
+
+**Start the Developer server using Vite**: Run `npm run dev`
+
+**Open your browser and go**: http://localhost:5173
+
+## Entry Point `src/main.jsx`
+
+## Core component `src/App.jsx`
+
+## Technology Stack:
+
+- React (with JSX)
+- JavaScript (ES6+)
+- Vite
+
+<!-- - HTML
+- CSS -->
